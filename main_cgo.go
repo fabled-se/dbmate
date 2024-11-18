@@ -4,5 +4,5 @@
 package main
 
 import (
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/sqlite"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/sqlite"
 )

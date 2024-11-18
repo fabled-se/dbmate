@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbmate"
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
+	"github.com/fabled-se/dbmate/v2/pkg/dbmate"
+	"github.com/fabled-se/dbmate/v2/pkg/dbutil"
 
 	"github.com/ClickHouse/clickhouse-go/v2"
 )

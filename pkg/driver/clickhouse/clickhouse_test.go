@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbmate"
-	"github.com/amacneil/dbmate/v2/pkg/dbtest"
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
+	"github.com/fabled-se/dbmate/v2/pkg/dbmate"
+	"github.com/fabled-se/dbmate/v2/pkg/dbtest"
+	"github.com/fabled-se/dbmate/v2/pkg/dbutil"
 
 	"github.com/stretchr/testify/require"
 )

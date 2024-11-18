@@ -10,11 +10,11 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/urfave/cli/v2"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbmate"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/bigquery"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/clickhouse"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/mysql"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/postgres"
+	"github.com/fabled-se/dbmate/v2/pkg/dbmate"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/bigquery"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/clickhouse"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/mysql"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/postgres"
 )
 
 func main() {

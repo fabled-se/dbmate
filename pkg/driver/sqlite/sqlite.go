@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbmate"
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
+	"github.com/fabled-se/dbmate/v2/pkg/dbmate"
+	"github.com/fabled-se/dbmate/v2/pkg/dbutil"
 
 	"github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3" // database/sql driver

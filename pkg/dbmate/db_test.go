@@ -10,12 +10,12 @@ import (
 	"testing/fstest"
 	"time"
 
-	"github.com/amacneil/dbmate/v2/pkg/dbmate"
-	"github.com/amacneil/dbmate/v2/pkg/dbtest"
-	"github.com/amacneil/dbmate/v2/pkg/dbutil"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/mysql"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/postgres"
-	_ "github.com/amacneil/dbmate/v2/pkg/driver/sqlite"
+	"github.com/fabled-se/dbmate/v2/pkg/dbmate"
+	"github.com/fabled-se/dbmate/v2/pkg/dbtest"
+	"github.com/fabled-se/dbmate/v2/pkg/dbutil"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/mysql"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/postgres"
+	_ "github.com/fabled-se/dbmate/v2/pkg/driver/sqlite"
 
 	"github.com/stretchr/testify/require"
 	"github.com/zenizh/go-capturer"

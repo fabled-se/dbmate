@@ -1,4 +1,4 @@
-module github.com/amacneil/dbmate/v2
+module github.com/fabled-se/dbmate/v2
 
 go 1.22.7
 
